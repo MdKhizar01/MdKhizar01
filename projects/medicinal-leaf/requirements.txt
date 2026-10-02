@@ -1,0 +1,4 @@
+numpy>=1.24
+Pillow>=9
+scikit-learn>=1.2
+joblib>=1.2

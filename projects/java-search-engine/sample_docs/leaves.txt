@@ -1,0 +1,1 @@
+Medicinal leaf classification uses image color and texture features.

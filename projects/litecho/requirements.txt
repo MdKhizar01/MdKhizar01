@@ -1,0 +1,5 @@
+Flask>=3.0
+pypdf>=5
+gTTS>=2.5
+Pillow>=9
+pytesseract>=0.3

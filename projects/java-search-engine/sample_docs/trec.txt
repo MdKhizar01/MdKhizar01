@@ -1,0 +1,4 @@
+<DOC>
+<DOCNO>FT911-DEMO</DOCNO>
+<TEXT>Information retrieval indexes documents and ranks relevant search results.</TEXT>
+</DOC>

@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Diabetes Feature Demo</title><style>body{font:16px system-ui;max-width:740px;margin:40px auto;padding:20px;background:#f4f7fb}label{display:block;margin:12px 0}input{padding:8px;width:180px}button{padding:12px;background:#174c77;color:white;border:0;border-radius:5px}pre{white-space:pre-wrap}</style>
+<h1>Diabetes Feature Demo</h1><p>Reconstructed educational application. {% if synthetic %}This model was trained on synthetic data.{% endif %} Scores are not clinical risk estimates.</p>
+<form id="form">{% for name in features %}<label>{{name}} <input name="{{name}}" type="number" min="0" step="any" required></label>{% endfor %}<button>Run model</button></form>
+<pre id="result" role="status"></pre><button id="history">Recent model outputs</button><pre id="past"></pre>
+<script>
+document.getElementById('form').onsubmit=async event=>{event.preventDefault();try{const data=Object.fromEntries(new FormData(event.target));const r=await fetch('/api/predict',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});document.getElementById('result').textContent=JSON.stringify(await r.json(),null,2)}catch(e){document.getElementById('result').textContent='Request failed: '+e.message}};
+document.getElementById('history').onclick=async()=>{try{const r=await fetch('/api/history');document.getElementById('past').textContent=JSON.stringify(await r.json(),null,2)}catch(e){document.getElementById('past').textContent=e.message}};
+</script></html>
