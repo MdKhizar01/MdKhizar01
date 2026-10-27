@@ -1,28 +1,29 @@
 # Mohammed Momin Khizar Uddin
 
-MS Computer Science student at the University of North Texas, with project interests in machine learning, data pipelines, information retrieval, and accessible applications.
+M.S. Computer Science at the University of North Texas · Expected December 2026
 
-## Project portfolio
+I build projects in Python, SQL, Java, and C++, with interests in backend development, data systems, machine learning, and information retrieval. I am seeking new-graduate software engineering opportunities.
 
-Each project folder includes setup instructions. **Reconstructed** folders contain new implementations written in October 2026 because the original source was unavailable. They are not the original submissions and do not establish previously reported results. See [provenance](RECONSTRUCTION.md) and [validation](VALIDATION.md).
+Instructional Assistant, Fundamentals of Database Systems — University of North Texas  
+January–May 2026 and August 2026–present.
 
-| Project | Code | Status |
+## Selected projects
+
+| Project | What is available | Technologies |
 | --- | --- | --- |
-| Machine Learning Configuration Explorer | [D3 views and dataset](projects/ml-configuration-explorer) | Recovered source |
-| Lowest-Cost-First Search | [Python implementation](projects/lowest-cost-first-search) | Recovered source; run verified |
-| DDoS Traffic Pipeline | [Local classifier and optional infrastructure adapters](projects/ddos-pipeline) | Reconstructed; local demo verified |
-| Diabetes Prediction Extension | [Flask app, training, output history](projects/diabetes-demo) | Reconstructed; synthetic demo verified |
-| Medicinal Leaf Classification | [Handcrafted feature baseline](projects/medicinal-leaf) | Reconstructed; synthetic demo verified |
-| Distributed Projected Gradient | [Ring optimization and convergence export](projects/distributed-gradient) | Reconstructed illustration; not a paper reproduction |
-| Information Retrieval Search Engine | [Java parser, indexer, cosine ranking](projects/java-search-engine) | Reconstructed; sample indexing/search verified |
-| Sorting Algorithm Analysis | [Four sorts and timing benchmark](projects/sorting-analysis) | Reconstructed; sorting outputs verified |
-| Litecho | [Text/PDF/image-to-audio local app](projects/litecho) | Reconstructed; local API checks, speech backend mocked |
-| Urban Environmental Sensor Explorer | [Linked D3 dashboard](projects/urban-environment-dashboard) | Reconstructed; JavaScript syntax checked |
+| [Medicinal Leaf Classification](https://github.com/MdKhizar01/Feature-Engineering-Project) | Original uploaded notebook and project reports | Python, feature engineering, machine learning |
+| [Flight Network Route Search](https://github.com/MdKhizar01/Analysis-of-Computer-Algorithms) | C++ source, flight data, and report | C++, graphs, breadth-first search |
+| [Persistent Key-Value Store](https://github.com/MdKhizar01/CSCE-5350-Project-1) | Command-line database with log replay | Python, persistence, data structures |
+| [Machine Learning Configuration Explorer](projects/ml-configuration-explorer) | Recovered D3 visualization source and teaching dataset | JavaScript, D3.js |
+| [Lowest-Cost-First Search](projects/lowest-cost-first-search) | Recovered Python search implementation | Python, search algorithms |
+| [Hadoop, MapReduce, and Hive on AWS](https://github.com/MdKhizar01/Hadoop-MapReduce-Hive-on-AWS-Big-Data-Processing) | Project report; original source is not included | Hadoop, Hive, AWS |
 
-## Existing repositories
+## Additional implementations
 
-- [Medicinal Leaf Feature Engineering — original uploaded notebook and reports](https://github.com/MdKhizar01/Feature-Engineering-Project)
-- [Flight Network Algorithms — existing C++ project](https://github.com/MdKhizar01/Analysis-of-Computer-Algorithms)
-- [Hadoop, MapReduce, Hive on AWS — existing report](https://github.com/MdKhizar01/Hadoop-MapReduce-Hive-on-AWS-Big-Data-Processing)
+This repository also contains [DDoS pipeline](projects/ddos-pipeline), [diabetes prediction](projects/diabetes-demo), [medicinal-leaf baseline](projects/medicinal-leaf), [distributed optimization](projects/distributed-gradient), [Java search engine](projects/java-search-engine), [sorting benchmarks](projects/sorting-analysis), [Litecho](projects/litecho), and [urban sensor dashboard](projects/urban-environment-dashboard) demonstrations.
 
-Synthetic demos are intended to demonstrate software behavior. Model evaluation on the original real datasets, live cloud/infrastructure adapters, and production deployment require separate work.
+These implementations were reconstructed in October 2026 from project descriptions when original files were unavailable. They are separate from the original coursework and do not establish its reported results. Synthetic data and verification limits are documented in each project and in [reconstruction provenance](RECONSTRUCTION.md) and [validation notes](VALIDATION.md).
+
+## Contact
+
+Email: momin.dev01@gmail.com
