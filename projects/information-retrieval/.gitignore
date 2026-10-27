@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+ft911/
+parser_output*.txt
+*index*.txt
+documents*.txt
+vsm_output*.txt
+evaluation_summary.csv
+main.qrels

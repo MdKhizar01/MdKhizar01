@@ -1,0 +1,25 @@
+name: Python source checks
+on:
+  push:
+    paths:
+      - 'projects/ai-search-and-logic/**'
+      - 'projects/information-retrieval/**'
+      - '.github/workflows/python-checks.yml'
+  pull_request:
+    paths:
+      - 'projects/ai-search-and-logic/**'
+      - 'projects/information-retrieval/**'
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check Python syntax
+        run: python -m compileall -q projects/ai-search-and-logic projects/information-retrieval
+      - name: Verify forward and backward chaining
+        run: python projects/ai-search-and-logic/pa3_logic.py
+      - name: Validate crossword solutions across 100 seeds
+        run: python projects/ai-search-and-logic/crossword_sls.py
