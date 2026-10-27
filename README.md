@@ -29,7 +29,7 @@ Fundamentals of Database Systems · January–May 2026 and August 2026–present
 <details>
 <summary>Coursework and project notes</summary>
 
-[Machine learning labs](projects/machine-learning-labs) · [Feature engineering labs](projects/feature-engineering-labs) · [Hadoop/Hive project report](https://github.com/MdKhizar01/Hadoop-MapReduce-Hive-on-AWS-Big-Data-Processing)
+[Machine learning labs](projects/machine-learning-labs) · [Feature engineering labs](projects/feature-engineering-labs) · [Hadoop/Hive project report](https://github.com/MdKhizar01/hadoop-hive-aws)
 
 Original uploaded source and reconstructed examples are identified separately. [Source notes](SOURCE_IMPORT.md) · [Validation](IMPORT_VALIDATION.md) · [Demo archive](archive/reconstructed-demos)
 
